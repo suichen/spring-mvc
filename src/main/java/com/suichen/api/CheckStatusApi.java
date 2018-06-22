@@ -1,4 +1,4 @@
-package com.suichen.openapi.api;
+package com.suichen.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

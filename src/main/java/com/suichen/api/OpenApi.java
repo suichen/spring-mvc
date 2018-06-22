@@ -1,4 +1,4 @@
-package com.suichen.openapi.api;
+package com.suichen.api;
 
 import com.suichen.openapi.framework.OpenApiService;
 import org.springframework.web.bind.annotation.*;
