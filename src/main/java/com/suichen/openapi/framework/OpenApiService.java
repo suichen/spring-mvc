@@ -47,6 +47,8 @@ public class OpenApiService {
 
         Method method = methodInfo.getMethod();
         int parameterCount = method.getParameterCount();
+        if(parameterCount == 0) return null;
+
         Object[] args = new Object[parameterCount];
 
         for (int paramIndex = 0; paramIndex < parameterCount; paramIndex++) {
