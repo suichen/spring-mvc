@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CheckStatusApi {
     @RequestMapping("/check_status")
-    public String checkStatus(@RequestParam(value = "name") String name) {
+    public String checkStatus(@RequestParam(value = "name",required = false) String name) {
         return "SUCCESS "+name;
     }
 }
